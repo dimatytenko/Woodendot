@@ -1,0 +1,33 @@
+.review {
+  &__container {
+  }
+  &__slide {
+    text-align: center;
+    padding: rem(80) rem(80) rem(50);
+  }
+  &__slide-tag {
+    font-style: italic;
+    font-weight: normal;
+    font-size: rem(20);
+    line-height: 1.5;
+
+    margin-bottom: rem(35);
+  }
+  &__slide-subtag {
+    line-height: 1.4;
+  }
+
+  &__swiper-pagination {
+    display: inline-block;
+    text-align: center;
+  }
+
+  &__swiper-pagination .swiper-pagination-bullet {
+    border-radius: 0;
+    width: rem(20);
+    height: rem(20);
+  }
+  &__swiper-pagination .swiper-pagination-bullet-active {
+    background-color: $colorBlack;
+  }
+}

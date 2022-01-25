@@ -1,0 +1,38 @@
+.benefits {
+  &__container {
+    padding: rem(45) 0;
+  }
+  &__item-box {
+    width: rem(180);
+    margin: 0 auto;
+  }
+
+  &__list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+  }
+  &__item {
+    &:not(:last-child) {
+      margin-bottom: rem(15);
+    }
+  }
+  &__item-box {
+    display: flex;
+    align-items: center;
+  }
+  &__item-text {
+    font-family: Roboto;
+    line-height: 1.83;
+    letter-spacing: rem(0.2);
+    margin-left: rem(15);
+  }
+}
+@media (min-width: $pc) {
+  .benefits {
+    &__list {
+      justify-content: space-around;
+    }
+  }
+}

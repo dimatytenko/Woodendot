@@ -1,0 +1,22 @@
+@media (max-width: $pc) {
+  .clients {
+    display: none;
+  }
+}
+@media (min-width: $pc) {
+  .clients {
+    &__container {
+      text-align: center;
+
+      padding: rem(80) 0;
+    }
+    &__title {
+      margin-bottom: rem(40);
+      font-family: Cardo;
+      color: $colorFontSecondary;
+      font-size: rem(20);
+      line-height: 1.3;
+      letter-spacing: rem(0.3);
+    }
+  }
+}

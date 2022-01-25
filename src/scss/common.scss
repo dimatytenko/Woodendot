@@ -1,0 +1,66 @@
+// Заголовки, общие БЄМ блоки и проче...
+$colorFontSecondary: #54595f;
+$colorFontTitleHome-Frame: #3a3a3a;
+$colorWhite: #fff;
+$colorBlack: #000;
+$colorBackground: #050505;
+$colorBackgroundFooter: #e9e9e9;
+$colorFavorite: #bc1414;
+
+.section {
+  padding-bottom: 40px;
+}
+
+//================================//
+.title {
+  margin-top: rem(50);
+  font-family: Roboto;
+  font-weight: bold;
+  font-size: rem(33);
+  line-height: 1.7;
+}
+.subtitle {
+  font-family: Cardo;
+  font-style: italic;
+  font-size: rem(18);
+  line-height: 2.05;
+  margin-bottom: rem(20);
+}
+
+.price {
+  line-height: 1.86;
+}
+.view {
+  color: $colorFontSecondary;
+
+  margin-top: rem(20);
+  margin-bottom: rem(40);
+}
+
+.shop {
+  font-size: rem(17);
+  line-height: 1.29;
+  text-decoration: underline !important;
+}
+.img {
+  display: block;
+  max-width: 100%;
+  height: auto;
+}
+// ====== section-showmore ============//
+.section-showmore {
+  &__content {
+    font-family: Cardo;
+    font-style: italic;
+    color: $colorFontSecondary;
+    font-size: rem(18);
+    line-height: 1.7;
+    margin-bottom: rem(25);
+  }
+  &__showmore {
+    font-family: Cardo;
+    font-size: rem(17);
+    line-height: 1.29;
+  }
+}
+// ===========================================//

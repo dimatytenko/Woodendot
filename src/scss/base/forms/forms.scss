@@ -1,0 +1,104 @@
+//<FORM>
+// Снипет (HTML):
+.form-subsc {
+  &__container {
+    // display: flex;
+    // justify-content: space-around;
+    // align-items: center;
+  }
+  &__input-box {
+  }
+  &__checkbox-box {
+  }
+  &__btn {
+    padding: 5px 60px;
+    font-size: 15px;
+    text-align: center;
+    color: #000;
+
+    background: #fff;
+    border: 1px solid #000;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+}
+.form-subsc-input {
+  &__label {
+    margin-right: 5px;
+  }
+  &__text {
+  }
+
+  // .form-subsc-input__input
+
+  &__input {
+  }
+}
+.checkbox {
+  // .checkbox__input
+
+  &__input {
+  }
+
+  // .checkbox__label
+
+  &__label {
+  }
+
+  // .checkbox__text
+
+  &__text {
+  }
+}
+.form-subsc-checkbox {
+  // .form-subsc-checkbox__input
+
+  &__input {
+  }
+
+  // .form-subsc-checkbox__label
+
+  &__label {
+  }
+
+  // .form-subsc-checkbox__text
+
+  &__text {
+  }
+}
+.button {
+}
+
+//</FORM>
+
+// <BUTTONS>
+// Снипет (HTML): btn
+// @import "button";
+
+// <INPUTS>
+// Снипет (HTML): inp
+@import "input";
+
+// <CHECK>
+// Снипет (HTML): chk
+@import "checkbox";
+
+// <RADIO>
+// Снипет (HTML): opt
+// @import "radio";
+
+// <SELECT>
+// Снипет (HTML): sel
+// @import "select";
+
+// <RATING>
+// Снипет (HTML): rating
+// @import "rating";
+
+// <QUANTITY>
+// Снипет (HTML): qa
+// @import "quantity";
+
+// <RANGE>
+// Снипет (HTML):
+// @import "range";

@@ -1,0 +1,17 @@
+@import "../base.scss";
+.frame {
+  &__list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  &__img {
+    @extend %grayfilter;
+  }
+}
+
+@media (max-width: $mobile) {
+  .frame {
+    display: none;
+  }
+}

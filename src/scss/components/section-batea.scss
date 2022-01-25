@@ -1,0 +1,26 @@
+.batea {
+  &__text {
+    padding: 0 rem(15);
+    text-align: right;
+  }
+
+  &__img-box {
+    max-width: rem(750);
+  }
+
+  @media (min-width: $pc) {
+    &__container {
+      display: flex;
+      flex-direction: row-reverse;
+    }
+    &__img-box {
+      max-width: rem(960);
+    }
+    &__text {
+      padding: 0;
+
+      width: rem(400);
+      margin-right: rem(45);
+    }
+  }
+}
