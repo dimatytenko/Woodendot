@@ -12,54 +12,26 @@
 <div id="subscription" aria-hidden="true" class="popup">
   <div class="popup__wrapper">
     <div class="popup__content">
-      <form class="form-subsc">
-        <div class="form-subsc__container">
-          <div class="form-subsc__input-box">
-            <label for="user-email" class="form-subsc-input"
-              ><span class="form-subsc-input__text"
-                >Email</span
-              ></label
-            >
-            <input
-              autocomplete="off"
-              type="email"
-              name="email"
-              data-error="Error"
-              placeholder="example@mail.com"
-              id="user-email"
-              class="form-subsc-input__input"
-            />
+      <div class="login-box">
+        <form>
+          <div class="user-box">
+            <input type="email" name="user_email" />
+            <label for="user_email">example@mail.com</label>
           </div>
-          <div class="form-subsc__checkbox-box checkbox">
-            <input
-              id="c_1"
-              data-error="Errorr"
-              class="form-subsc-checkbox__input checkbox__input"
-              type="checkbox"
-              value="1"
-              name="form[]"
-            />
-            <label
-              for="c_1"
-              class="form-subsc-checkbox__label checkbox__label"
-              ><span
-                class="form-subsc-checkbox__text checkbox__text"
-                >Текст</span
-              ></label
-            >
-          </div>
-          <button
-            type="submit"
-            class="form-subsc__btn button"
+          <a
+            href="#"
+            data-close
+            type="button"
+            class="popup__close"
           >
+            <span></span>
+            <span></span>
+            <span></span>
+            <span></span>
             Send
-          </button>
-        </div>
-      </form>
-      <button data-close type="button" class="popup__close">
-        Закрыть
-      </button>
-      <div class="popup__text"></div>
+          </a>
+        </form>
+      </div>
     </div>
   </div>
 </div>
