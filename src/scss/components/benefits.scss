@@ -5,6 +5,7 @@
   &__item-box {
     width: rem(180);
     margin: 0 auto;
+    cursor: pointer;
   }
 
   &__list {
@@ -27,6 +28,12 @@
     line-height: 1.83;
     letter-spacing: rem(0.2);
     margin-left: rem(15);
+    transition: color $transition;
+
+    &:hover,
+    &:focus {
+      color: $colorWood;
+    }
   }
 }
 @media (min-width: $pc) {

@@ -27,9 +27,16 @@
       font-size: rem(17);
       line-height: 1.35;
       color: #fff;
+      transition: color $transition;
+
       &:not(:last-child) {
         margin-bottom: rem(15);
       }
+    }
+
+    &__item:hover,
+    &__item:focus {
+      color: $colorWood;
     }
     .menu-open {
       display: block;
@@ -98,10 +105,17 @@
       display: flex;
     }
     &__item {
+      transition: color $transition;
       &:not(:last-child) {
         margin-right: rem(30);
       }
     }
+
+    &__item:hover,
+    &__item:focus {
+      color: $colorWood;
+    }
+
     &__link {
       font-size: rem(17);
       line-height: 1.35;

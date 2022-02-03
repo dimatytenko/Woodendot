@@ -18,8 +18,6 @@
     font-size: rem(21);
     text-transform: uppercase;
   }
-  &__list {
-  }
   &__item {
     line-height: 1.33;
 
@@ -34,6 +32,15 @@
     background: $colorWhite;
     border: 1px solid $colorBlack;
     cursor: pointer;
+    transition: $transition;
+  }
+
+  .button-subscription:hover,
+  .button-subscription:focus {
+    background-color: $colorWood;
+    border: none;
+    outline: none;
+    border-radius: 5px;
   }
 
   &__info {

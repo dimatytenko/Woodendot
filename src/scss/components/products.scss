@@ -21,7 +21,16 @@
     line-height: 1.86;
     margin-bottom: rem(30);
   }
+
   &__learn-more {
     text-decoration: underline !important;
+    transition-property: color font-size;
+    transition: $transition;
+
+    &:hover,
+    &focus {
+      font-size: rem(18);
+      color: $colorWood;
+    }
   }
 }

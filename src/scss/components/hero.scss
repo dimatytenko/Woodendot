@@ -30,8 +30,16 @@
     font-size: rem(20);
     color: $colorWhite;
     border: rem(1) solid $colorWhite;
-
     padding: rem(5) rem(5);
+    transition: background-color $transition;
+
+    &:hover,
+    &:focus {
+      background-color: $colorWood;
+      outline: none;
+      border: none;
+      border-radius: 5px;
+    }
   }
 
   &__slogan {
